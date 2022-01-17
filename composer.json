@@ -1,0 +1,44 @@
+{
+  "name": "mfabdelaziz/async-service-call-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony bundle for asynchronous service methods calls",
+  "keywords": [
+    "Symfony",
+    "async",
+    "command",
+    "service"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "krlove",
+      "email": "mischenkoandrey@gmail.com"
+    },
+    {
+      "name": "Filipe Fernandes",
+      "email": "filipefernandes007@gmail.com"
+    },
+    {
+      "name": "Mostafa",
+      "email": "mfabdelaziz96@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "symfony/framework-bundle": "~4.4.0",
+    "symfony/console": "~4.4.0",
+    "symfony/monolog-bundle": "^3.1",
+    "symfony/process": "^4.4.0"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": ">=5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Krlove\\AsyncServiceCallBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
