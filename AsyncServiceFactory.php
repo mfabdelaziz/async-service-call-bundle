@@ -43,7 +43,7 @@ class AsyncServiceFactory
         Filesystem $filesystem,
         string $rootDir,
         string $consolePath,
-        string $phpPath
+        string $phpPath = null
     ) {
         $this->filesystem  = $filesystem;
         $this->rootDir     = $rootDir;
